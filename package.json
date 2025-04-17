@@ -1,34 +1,35 @@
 {
-  "name": "@leadinvr/logger",
-  "version": "1.0.0",
-  "description": "Logger module for nestjs",
-  "main": "./dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhihesoft/leadinvr-logger.git"
-  },
-  "keywords": [
-    "nestjs",
-    "logger"
-  ],
-  "author": "Stanley",
-  "license": "Apache-2.0",
-  "files": [
-    "dist/**/*"
-  ],
-  "bugs": {
-    "url": "https://github.com/zhihesoft/leadinvr-logger/issues"
-  },
-  "homepage": "https://github.com/zhihesoft/leadinvr-logger#readme",
-  "devDependencies": {
-    "@nestjs/common": "^11.0.20",
-    "@nestjs/core": "^11.0.20"
-  },
-  "dependencies": {
-    "winston": "^3.17.0",
-    "winston-daily-rotate-file": "^5.0.0"
-  }
+    "name": "@leadinvr/logger",
+    "version": "1.0.1",
+    "description": "Logger module for nestjs",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhihesoft/leadinvr-logger.git"
+    },
+    "keywords": [
+        "nestjs",
+        "logger"
+    ],
+    "author": "Stanley",
+    "license": "Apache-2.0",
+    "files": [
+        "dist/**/*"
+    ],
+    "bugs": {
+        "url": "https://github.com/zhihesoft/leadinvr-logger/issues"
+    },
+    "homepage": "https://github.com/zhihesoft/leadinvr-logger#readme",
+    "devDependencies": {
+        "@nestjs/common": "^11.0.20",
+        "@nestjs/core": "^11.0.20"
+    },
+    "dependencies": {
+        "winston": "^3.17.0",
+        "winston-daily-rotate-file": "^5.0.0"
+    }
 }
