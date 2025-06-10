@@ -12,6 +12,7 @@ export class RequestExceptionFilter implements ExceptionFilter {
 
         requestLogger.error(`|-------------------------------------`);
         requestLogger.error(`|- ${request.method} ${request.url} ${status}`);
+        requestLogger.error(`|- [HEADS] ${JSON.stringify(request.headers)}`);
         if (request.method === "POST") {
             requestLogger.error(`|- [BODY] ${JSON.stringify(request.body)}`);
         }
