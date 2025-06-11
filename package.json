@@ -1,6 +1,6 @@
 {
     "name": "@leadinvr/logger",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "Logger module for nestjs",
     "main": "./dist/index.js",
     "scripts": {
